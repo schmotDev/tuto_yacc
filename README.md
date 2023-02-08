@@ -9,7 +9,7 @@ testing lex and yacc with a small interpreter
 -> lines end with ";"
 
 examples:
-
+<sup>
 └─$ ./calc
 a=14;
 b=45;
@@ -28,14 +28,14 @@ a=5;
 print a+33;
 Printing 38
 exit;
-
+</sup>
 
 --------------------
 to generate the calculator:
-
+<sup>
 yyacc -d calc.y
 lex calc.l
 gcc -g lex.yy.c y.tab.c -o calc
-
+</sup>
 
   
