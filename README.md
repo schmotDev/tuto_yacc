@@ -2,6 +2,8 @@
 
 testing lex and yacc with a small interpreter
 
+
+***
 -> accepts assignation to variable: a=5   (52 variables, from a to z and A to Z)
 -> can add and rest in expression, with variables or values
 -> print command to show the results of an expression or a variable
