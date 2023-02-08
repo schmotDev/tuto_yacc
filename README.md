@@ -19,26 +19,27 @@ Printing 59
 exit;
 ```
 
-`
+```
 └─$ ./calc
 print 5+6 ;
 Printing 11
 exit;
-`
+```
 
+```
 └─$ ./calc
 a=5;
 print a+33;
 Printing 38
 exit;
-
+```
 
 --------------------
 to generate the calculator:
-<sup>
+```
 yyacc -d calc.y
 lex calc.l
 gcc -g lex.yy.c y.tab.c -o calc
-</sup>
+
 
   
