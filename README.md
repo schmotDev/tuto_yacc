@@ -1,4 +1,4 @@
-### tuto_yacc
+## tuto_yacc
 
 testing lex and yacc with a small interpreter
 
