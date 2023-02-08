@@ -9,7 +9,7 @@ testing lex and yacc with a small interpreter
 -> lines end with ";"
 
 examples:
-`
+```
 └─$ ./calc
 a=14;
 b=45;
@@ -17,7 +17,8 @@ c=a+b;
 print c;
 Printing 59
 exit;
-´
+```
+
 `
 └─$ ./calc
 print 5+6 ;
